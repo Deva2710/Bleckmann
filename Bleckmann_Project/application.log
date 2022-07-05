@@ -1,0 +1,11 @@
+2022-07-05 12:28:55,781  INFO [main] e-commerse:66 - lanch browser
+ 2022-07-05 12:28:59,407  INFO [main] e-commerse:13 - TC_01_ enter order id
+ 2022-07-05 12:29:04,565  INFO [main] e-commerse:16 - TC_01_ enter mail id
+ 2022-07-05 12:29:06,832  INFO [main] e-commerse:19 - TC_01_ click on submit button
+ 2022-07-05 12:29:08,985  INFO [main] e-commerse:14 - TC_01_ enter order id
+ 2022-07-05 12:29:11,359  INFO [main] e-commerse:17 - TC_01_ enter mail id
+ 2022-07-05 12:29:13,521  INFO [main] e-commerse:20 - TC_01_ enter mail id
+ 2022-07-05 12:29:15,859  INFO [main] e-commerse:23 - TC_01_ enter mail id
+ 2022-07-05 12:29:20,115  INFO [main] e-commerse:11 - TC_01_ enter order id
+ 2022-07-05 12:29:22,298  INFO [main] e-commerse:14 - TC_01_ enter mail id
+ 
