@@ -1,45 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-05T12:28:59 IST" name="Suite" finished-at="2022-07-05T12:29:24 IST" duration-ms="25262">
+  <suite started-at="2022-07-08T10:14:13 IST" name="OM1" finished-at="2022-07-08T10:14:38 IST" duration-ms="24136">
     <groups>
     </groups>
-    <test started-at="2022-07-05T12:28:59 IST" name="Test" finished-at="2022-07-05T12:29:24 IST" duration-ms="25262">
-      <class name="Test_Clases.TC_02_OM2_ReturnItem_Test">
-        <test-method is-config="true" signature="creteobject()[pri:0, instance:Test_Clases.TC_02_OM2_ReturnItem_Test@1649b0e6]" started-at="2022-07-05T12:29:08 IST" name="creteobject" finished-at="2022-07-05T12:29:08 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- creteobject -->
-        <test-method signature="RunTC_02_ReturnPortal_Test()[pri:0, instance:Test_Clases.TC_02_OM2_ReturnItem_Test@1649b0e6]" started-at="2022-07-05T12:29:08 IST" name="RunTC_02_ReturnPortal_Test" finished-at="2022-07-05T12:29:20 IST" duration-ms="11121" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RunTC_02_ReturnPortal_Test -->
-      </class> <!-- Test_Clases.TC_02_OM2_ReturnItem_Test -->
-      <class name="Test_Clases.TC_01_OM2_ReturnOrder_Test">
-        <test-method is-config="true" signature="intiDriver()[pri:0, instance:Test_Clases.TC_01_OM2_ReturnOrder_Test@6a6afff2]" started-at="2022-07-05T12:28:54 IST" name="intiDriver" finished-at="2022-07-05T12:28:59 IST" duration-ms="4546" status="PASS">
+    <test started-at="2022-07-08T10:14:13 IST" name="Test1" finished-at="2022-07-08T10:14:38 IST" duration-ms="24136">
+      <class name="Test_Clases.TC_OM6">
+        <test-method is-config="true" signature="intiDriver()[pri:0, instance:Test_Clases.TC_OM6@29647f75]" started-at="2022-07-08T10:14:09 IST" name="intiDriver" finished-at="2022-07-08T10:14:13 IST" duration-ms="4565" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intiDriver -->
-        <test-method is-config="true" signature="creteobject()[pri:0, instance:Test_Clases.TC_01_OM2_ReturnOrder_Test@6a6afff2]" started-at="2022-07-05T12:28:59 IST" name="creteobject" finished-at="2022-07-05T12:28:59 IST" duration-ms="62" status="PASS">
+        <test-method is-config="true" signature="creteobject()[pri:0, instance:Test_Clases.TC_OM6@29647f75]" started-at="2022-07-08T10:14:13 IST" name="creteobject" finished-at="2022-07-08T10:14:14 IST" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- creteobject -->
-        <test-method signature="RunTC_01_ReturnOrder_Test()[pri:0, instance:Test_Clases.TC_01_OM2_ReturnOrder_Test@6a6afff2]" started-at="2022-07-05T12:28:59 IST" name="RunTC_01_ReturnOrder_Test" finished-at="2022-07-05T12:29:08 IST" duration-ms="9585" status="PASS">
+        <test-method signature="RunTC_01_OM1_ReturnOrder_Test()[pri:1, instance:Test_Clases.TC_OM6@29647f75]" started-at="2022-07-08T10:14:14 IST" name="RunTC_01_OM1_ReturnOrder_Test" finished-at="2022-07-08T10:14:33 IST" duration-ms="19518" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- RunTC_01_ReturnOrder_Test -->
-      </class> <!-- Test_Clases.TC_01_OM2_ReturnOrder_Test -->
-      <class name="Test_Clases.TC_03_OM2_Carrier_Test">
-        <test-method is-config="true" signature="creteobject()[pri:0, instance:Test_Clases.TC_03_OM2_Carrier_Test@865dd6]" started-at="2022-07-05T12:29:20 IST" name="creteobject" finished-at="2022-07-05T12:29:20 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- RunTC_01_OM1_ReturnOrder_Test -->
+        <test-method signature="RunTC_02_OM1_Carrier_Test()[pri:2, instance:Test_Clases.TC_OM6@29647f75]" started-at="2022-07-08T10:14:33 IST" name="RunTC_02_OM1_Carrier_Test" finished-at="2022-07-08T10:14:38 IST" duration-ms="4451" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- creteobject -->
-        <test-method signature="RunTC_03_Carrier_Test()[pri:0, instance:Test_Clases.TC_03_OM2_Carrier_Test@865dd6]" started-at="2022-07-05T12:29:20 IST" name="RunTC_03_Carrier_Test" finished-at="2022-07-05T12:29:24 IST" duration-ms="4418" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RunTC_03_Carrier_Test -->
-      </class> <!-- Test_Clases.TC_03_OM2_Carrier_Test -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- RunTC_02_OM1_Carrier_Test -->
+      </class> <!-- Test_Clases.TC_OM6 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- OM1 -->
 </testng-results>

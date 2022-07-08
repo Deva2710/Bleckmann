@@ -1,4 +1,4 @@
-package Page_Clases;
+package PageClass_OM6;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class PC_01_OM1_ReturnOrder_Page {
+public class PC_01_OM6_ReturnOrder_Page {
 	
 WebDriver driver;
 	
@@ -36,7 +36,7 @@ WebDriver driver;
 	@FindBy(xpath = "(//*[@id='button1'])[2]")
 	private WebElement Submit;
     
-	public PC_01_OM1_ReturnOrder_Page(WebDriver driver) {
+	public PC_01_OM6_ReturnOrder_Page(WebDriver driver) {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	

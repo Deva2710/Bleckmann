@@ -14,11 +14,21 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 
-import Page_Clases.PC_01_OM1_ReturnOrder_Page;
-import Page_Clases.PC_01_OM2_ReturnOrder_Page;
-import Page_Clases.PC_02_OM1_Carrier_Page;
-import Page_Clases.PC_02_OM2_ReturnItem_Page;
-import Page_Clases.PC_03_OM2_Carrier_Page;
+import PageClass_OM1.PC_01_OM1_ReturnOrder_Page;
+import PageClass_OM1.PC_02_OM1_Carrier_Page;
+import PageClass_OM2.PC_01_OM2_ReturnOrder_Page;
+import PageClass_OM2.PC_02_OM2_ReturnItem_Page;
+import PageClass_OM2.PC_03_OM2_Carrier_Page;
+import PageClass_OM3.PC_01_OM3_Login_Page;
+import PageClass_OM3.PC_02_OM3_Modules_Page;
+import PageClass_OM3.PC_03_OM3_Customers_Page;
+import PageClass_OM3.PC_04_OM3_Return_Order;
+import PageClass_OM3.PC_05_OM3_Carrier_Page;
+import PageClass_OM4.PC_01_OM4_ReturnOrder_Page;
+import PageClass_OM4.PC_02_OM4_ReturnItems_Page;
+import PageClass_OM4.PC_03_OM4_Carrier_Page;
+import PageClass_OM6.PC_01_OM6_ReturnOrder_Page;
+import PageClass_OM6.PC_02_OM6_Carrier_Page;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 
@@ -29,11 +39,22 @@ public class BaseTest {
 	public PC_01_OM1_ReturnOrder_Page OM1_1;
 	public PC_02_OM1_Carrier_Page     OM1_2;
 
-	
 	public PC_01_OM2_ReturnOrder_Page OM2_1;
 	public PC_02_OM2_ReturnItem_Page  OM2_2;
 	public PC_03_OM2_Carrier_Page     OM2_3;
 	
+	public PC_01_OM3_Login_Page       OM3_1;
+	public PC_02_OM3_Modules_Page     OM3_2;
+	public PC_03_OM3_Customers_Page   OM3_3;
+	public PC_04_OM3_Return_Order     OM3_4;
+	public PC_05_OM3_Carrier_Page     OM3_5;
+	
+	public PC_01_OM4_ReturnOrder_Page OM4_1;
+	public PC_02_OM4_ReturnItems_Page OM4_2;
+	public PC_03_OM4_Carrier_Page     OM4_3;
+	
+	public PC_01_OM6_ReturnOrder_Page OM6_1;
+	public PC_02_OM6_Carrier_Page     OM6_2;
 
 	public static Logger log;
 	
@@ -77,7 +98,7 @@ public class BaseTest {
 		
 		prop.load(fis);
 		
-		String url = prop.getProperty("testsiteurl");
+		String url = prop.getProperty("URL_OM6");
 	    
 
 		driver.get(url);
@@ -93,6 +114,20 @@ public class BaseTest {
 		OM2_1 = new PC_01_OM2_ReturnOrder_Page(driver);
 		OM2_2 = new PC_02_OM2_ReturnItem_Page(driver);
 		OM2_3 = new PC_03_OM2_Carrier_Page(driver);
+		
+		OM3_1 = new PC_01_OM3_Login_Page(driver);
+		OM3_2 = new PC_02_OM3_Modules_Page(driver);
+		OM3_3 = new PC_03_OM3_Customers_Page(driver);
+		OM3_4 = new PC_04_OM3_Return_Order(driver);
+	    OM3_5 = new PC_05_OM3_Carrier_Page(driver);
+	    
+	    OM4_1 = new PC_01_OM4_ReturnOrder_Page(driver);
+	    OM4_2 = new PC_02_OM4_ReturnItems_Page(driver);
+	    OM4_3 = new PC_03_OM4_Carrier_Page(driver);
+	    
+		OM6_1 = new PC_01_OM6_ReturnOrder_Page(driver);
+		OM6_2 = new PC_02_OM6_Carrier_Page(driver);
+		
 
 	}
 }

@@ -1,4 +1,4 @@
-package Page_Clases;
+package PageClass_OM2;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

@@ -1,4 +1,4 @@
-package Page_Clases;
+package PageClass_OM4;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
@@ -7,11 +7,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class PC_02_OM2_ReturnItem_Page {
+public class PC_02_OM4_ReturnItems_Page {
 	
-	WebDriver driver;
+WebDriver driver;
 	
-	@FindBy(xpath = "(//a[contains(text(),'INSTINCT 4-M WHITE / RED SIZE 9')]//ancestor::tr/td/div/div/label/span)[1]")
+	@FindBy(xpath = "//*[@id='selectSKU-AFM1735F1090']")
 	private WebElement Checkbox;
 	
 	@FindBy(xpath = "((//a[contains(text(),'INSTINCT 4-M WHITE / RED SIZE 9')]//ancestor::tr/td[5]/div)[1]//child::span)[3]")
@@ -24,13 +24,13 @@ public class PC_02_OM2_ReturnItem_Page {
     private WebElement submit;
       	
     
-	public PC_02_OM2_ReturnItem_Page(WebDriver driver) {
+	public PC_02_OM4_ReturnItems_Page(WebDriver driver) {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	
 	}
 	public void ClickCheckBox() throws InterruptedException {
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		Checkbox.click();
 		}
 	
@@ -53,6 +53,5 @@ public class PC_02_OM2_ReturnItem_Page {
 		Thread.sleep(2000);
 		submit.click();
 		}
-
 
 }

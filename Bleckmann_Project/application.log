@@ -1,11 +1,12 @@
-2022-07-05 12:28:55,781  INFO [main] e-commerse:66 - lanch browser
- 2022-07-05 12:28:59,407  INFO [main] e-commerse:13 - TC_01_ enter order id
- 2022-07-05 12:29:04,565  INFO [main] e-commerse:16 - TC_01_ enter mail id
- 2022-07-05 12:29:06,832  INFO [main] e-commerse:19 - TC_01_ click on submit button
- 2022-07-05 12:29:08,985  INFO [main] e-commerse:14 - TC_01_ enter order id
- 2022-07-05 12:29:11,359  INFO [main] e-commerse:17 - TC_01_ enter mail id
- 2022-07-05 12:29:13,521  INFO [main] e-commerse:20 - TC_01_ enter mail id
- 2022-07-05 12:29:15,859  INFO [main] e-commerse:23 - TC_01_ enter mail id
- 2022-07-05 12:29:20,115  INFO [main] e-commerse:11 - TC_01_ enter order id
- 2022-07-05 12:29:22,298  INFO [main] e-commerse:14 - TC_01_ enter mail id
+2022-07-08 10:14:09,995  INFO [main] e-commerse:87 - lanch browser
+ 2022-07-08 10:14:14,071  INFO [main] e-commerse:13 - TC_01_ enter First name 
+ 2022-07-08 10:14:18,096  INFO [main] e-commerse:16 - TC_01_ enter Street address
+ 2022-07-08 10:14:20,417  INFO [main] e-commerse:19 - TC_01_ enter house number
+ 2022-07-08 10:14:22,629  INFO [main] e-commerse:22 - TC_01_ enter postal code
+ 2022-07-08 10:14:24,819  INFO [main] e-commerse:25 - TC_01_ enter city name
+ 2022-07-08 10:14:27,037  INFO [main] e-commerse:28 - TC_01_ click on dropdown
+ 2022-07-08 10:14:29,185  INFO [main] e-commerse:31 - TC_01_ click on enter country name 
+ 2022-07-08 10:14:31,395  INFO [main] e-commerse:34 - TC_01_ click on submit button
+ 2022-07-08 10:14:33,585  INFO [main] e-commerse:41 - TC_01_ click on checkbox of carrier
+ 2022-07-08 10:14:35,706  INFO [main] e-commerse:44 - TC_01_ click to continue
  
